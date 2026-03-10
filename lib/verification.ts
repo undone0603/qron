@@ -31,7 +31,7 @@ export interface QRVerificationRecord {
 // ─── Constants ───────────────────────────────────────────────────────────────
 
 const HASH_ALGORITHM = 'sha256';
-const VERIFICATION_SECRET = process.env.VERIFICATION_SECRET ?? 'authichain-demo-secret';
+const VERIFICATION_SECRET = process.env.VERIFICATION_SECRET ?? 'authichain-unified';
 const DEFAULT_TTL_MS = 1000 * 60 * 60 * 24 * 365; // 1 year
 
 // ─── Core Utilities ──────────────────────────────────────────────────────────
